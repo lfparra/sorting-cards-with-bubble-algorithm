@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    background-color: #29ac29;
+    padding: 15px 10px;
+}
+.menu {
+    
+    font-weight: bold;
+}
+.menu input {
+    width: 40px;
+}
+
+.container {
+    display: inline-flex;
+}
+.card {
+    background-color: white;
+    margin: 15px ;
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.card-header, .card-footer {
+    height: 25%;
+    font-size: 40px;
+    margin: 0px 10px 0px;
+    align-items: center;
+}
+.card-footer {
+    text-align: right;
+
+}
+.card-body {
+    height: 45%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+.bubbleLog {
+    display: inline-flex;
+    align-items: center;    
+}
+
+.lineNumber {
+    font-size: 35px;
+    display: inline-flex;
+    align-items: center;
+}
+
